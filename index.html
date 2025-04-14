@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N. R. Kesharwani & Co. | Chartered Accountants</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e3f2fd, #ffffff);
+      color: #1a1a1a;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    header {
+      background: linear-gradient(to right, #004d40, #00796b);
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    header img {
+      height: 60px;
+      border-radius: 10px;
+    }
+    header h1 {
+      font-size: 28px;
+    }
+    nav a {
+      color: #e0f2f1;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: white;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581091012184-7c4c4b64b295?auto=format&fit=crop&w=1470&q=80') no-repeat center/cover;
+      height: 85vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      text-shadow: 1px 1px 5px #000;
+      text-align: center;
+      padding: 20px;
+      animation: fadeIn 1.2s ease-in;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      animation: slideUp 1s ease-in-out;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      animation: slideUp 1.4s ease-in-out;
+    }
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    section {
+      padding: 50px 20px;
+      background: white;
+      margin: 30px auto;
+      max-width: 1100px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      animation: fadeIn 1.5s ease;
+    }
+    section h3 {
+      margin-bottom: 20px;
+      color: #004d40;
+    }
+    .service-item, blockquote {
+      margin-bottom: 20px;
+    }
+    .service-item h4 {
+      color: #00695c;
+    }
+    blockquote {
+      font-style: italic;
+      color: #444;
+      border-left: 5px solid #00796b;
+      padding-left: 15px;
+      background: #f1f8e9;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      background: #004d40;
+      color: white;
+      padding: 20px;
+      border-top: 4px solid #00796b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://assets.indiaonline.in/cat-default/450/chartered-accountants-ca-license-trade-and-business-license-agents.jpg" alt="YK Logo">
+    <h1>N.R. Kesharwani & Co.</h1>
+    <nav>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="contact.html">Contact</a>
+      <a href="Payment-Portal.html">Payment Portal</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Your Financial Growth</h2>
+    <p>Trust, Integrity, and Professional Excellence</p>
+  </section>
+
+  <section id="services">
+    <h3>Our Services</h3>
+    <div class="service-item">
+      <h4>Taxation & Compliance</h4>
+      <p>Expert support in GST, Income Tax, TDS, and other regulatory matters.</p>
+    </div>
+    <div class="service-item">
+      <h4>Audit & Assurance</h4>
+      <p>Statutory, internal, and management audits tailored for your business.</p>
+    </div>
+    <div class="service-item">
+      <h4>Business Advisory</h4>
+      <p>Strategic planning, risk management, and financial guidance to scale your venture.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h3>About Us</h3>
+    <p>N.R. Kesharwani & Co. is a trusted firm of Chartered Accountants with over a decade of experience in tax consultancy, financial auditing, and business growth strategies. We are committed to delivering excellence with a client-first approach.</p>
+  </section>
+
+  <section id="testimonials">
+    <h3>Client Testimonials</h3>
+    <blockquote>
+      "N.R. Kesharwani & Co. helped streamline our finances and gave us the confidence to grow." - BoundLess Workers, Startup Founder
+    </blockquote>
+    <blockquote>
+      "Professional, reliable, and insightful – their service is unmatched." - BMC., Retail & Wholesale Business Owner
+    </blockquote>
+  </section>
+
+  <footer>
+    &copy; 2025 N.R. Kesharwani & Co. | Chartered Accountants | All Rights Reserved
+  </footer>
+</body>
+</html>
